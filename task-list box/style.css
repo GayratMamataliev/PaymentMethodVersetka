@@ -1,0 +1,108 @@
+
+
+
+body{
+	font-family: "montserrat",sans-serif;
+	background: url(background.jpg) ;
+	background-size: 2000px 1000px;
+
+}
+.middle{
+	border-radius: 5px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.task-list{
+	width: 300px;
+	height: 312.5px;
+	
+	background:white;
+	background-size: cover;
+}
+.task-list h2{
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.task{
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+	cursor: pointer;
+}
+.task input{
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+	position: absolute;
+	visibility: hidden;
+}
+.task i{
+	display: inline-block;
+	width: 25px;
+
+  background-repeat: no-repeat;
+  background-position: right top;
+  
+	height: 25px;
+	border-radius: 50%;
+	border:1px ;/*wu yerda aylanani sirculig rang beriladi*/
+	text-align: center;
+	line-height: 28px;
+	font-size: 15px;
+	margin-right: 34px;
+	margin-left: 20px;
+	color: transparent;
+
+
+
+}
+.text{
+	font-size: 15px;
+	color: black;
+
+}
+.task input:checked~i{
+	color: #5EFF33;
+}
+
+
+
+
+a:link
+{
+	background-color: #33AFFF;
+
+    
+    padding: 15px 96.1px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+.task:hover{
+	background-color: #ddd;
+	text-shadow: -.25px -.25px 0 black, 
+                .25px .25px black;
+
+  
+}
+
+
+img {
+	width: 30px;
+
+margin-right: 20px;
+margin-left: 30px;
+	
+	text-decoration-color: black;
+
+}
+
+
+
+
+
+
